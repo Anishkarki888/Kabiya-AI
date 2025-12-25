@@ -1,6 +1,8 @@
 import streamlit as st
-from langchain_huggingface import HuggingFaceEndpoint, ChatHuggingFace
 from langchain_core.messages import HumanMessage, SystemMessage
+from langchain_community.llms import HuggingFaceEndpoint
+from langchain_community.chat_models import ChatHuggingFace
+
 from datetime import datetime
 import json
 import os
